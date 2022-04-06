@@ -9,7 +9,7 @@ const scpj = SCPj.map(
         <h4><strong>Class:</strong> {SCPS.class}</h4>
         <p><strong>Secure Containment Procedure:</strong> {SCPS.containment}</p>
         <p><strong>Description:</strong> {SCPS.description}</p>
-        <p><img src={SCPS.image} height="407px" width="399px"/></p>
+        <p><img src={SCPS.image} style={{height:'407px', width:'399px'}} alt=""/></p>
         <br/><br/>
       </div>
     );
