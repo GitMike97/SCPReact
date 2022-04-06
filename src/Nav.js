@@ -8,7 +8,9 @@ function Nav()
         <nav>
             <ul className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div>
+                <a href="https://scp-wiki.wikidot.com/">
                 <img src = {Image} style={{height:'50px', width:'100px'}} alt="Logo"/>
+                </a>
             </div>
             
             <button className="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
