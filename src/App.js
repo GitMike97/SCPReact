@@ -5,11 +5,6 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
 function App() {
-  const [width, setWindowWidth] = useState(0);
-  const updateDimensions = () => {
-    const width = window.innerWidth
-    setWindowWidth(width)
-  }
   return (
 
     <Router>
